@@ -8,7 +8,7 @@ layout: default
 
 #### [RANsacked](/ransacked) - Domain-Informed LTE/5G RAN-Core Fuzzing
 
-Cellular networks have become critical to daily communication and emergency services. At the same
+Cellular networks are critical to daily communication and emergency services. At the same
 time, the internals of cellular protocols have increased in complexity through successive
 generations. This increased complexity raises the likelihood of bugs and vulnerabilities in
 cellular deployments, and adversaries have more access to these networks than ever before:
