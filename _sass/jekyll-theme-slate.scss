@@ -133,7 +133,6 @@ strong {
 img {
   position: relative;
   margin: 0 auto;
-  max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
@@ -146,10 +145,11 @@ img {
 }
 
 p img {
-  display: inline;
-  margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
-  vertical-align: middle;
+  width: 65%;
   text-align: center;
   border: none;
 }
@@ -275,7 +275,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 860px;
   padding: 20px 10px;
   margin: 0 auto;
 }

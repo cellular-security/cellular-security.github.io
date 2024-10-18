@@ -2,122 +2,24 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+<!--The Florida Institute for Cybersecurity Research (FICS Research)-->
 
-[Link to another page](./another-page.html).
+## Research
 
-There should be whitespace between paragraphs.
+#### [RANsacked](/ransacked) - Domain-Informed LTE/5G RAN-Core Fuzzing
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Cellular networks have become critical to daily communication and emergency services. At the same
+time, the internals of cellular protocols have increased in complexity through successive
+generations. This increased complexity raises the likelihood of bugs and vulnerabilities in
+cellular deployments, and adversaries have more access to these networks than ever before:
 
-# Header 1
+![RAN-Core Threats](/assets/images/ransacked-threats.png)
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+**RANsacked** leverages open-source testbed setups to inform the innovation and application of
+fuzzing techniques to the cellular domain. Our advances enable hundreds of millions of unique inputs
+to be tested on the core per CPU-day; each testcase is intelligently formed to appear to be valid
+and pass decoding requirements, thereby allowing deeper exploration into the protocol. Our research
+uncovers **119 vulnerabililties** across 7 LTE cores and 3 5G cores, with **93 CVEs** assigned.
 
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+A detailed report on the vulnerability disclosure can be found [here](/ransacked); read more about
+how we designed and evaluated the fuzzer in [our paper](todo:paper).
