@@ -6,7 +6,7 @@ layout: default
 
 We discover **119 vulnerabilities** in LTE/5G core infrastructure, each of which can result in **persistent denial of cell service to an entire metropolitan area or city** and some of which can be used to **remotely compromise and access the cellular core**. Our research covers seven LTE implementations (Open5GS, Magma, OpenAirInterface, Athonet, SD-Core, NextEPC, srsRAN) and three 5G implementations (Open5GS, Magma, OpenAirInterface); we find **vulnerabilities in every single LTE/5G implementation tested**.
 
-Our research finds these vulnerabilities are present in both well-maintained open-source LTE/5G cores and in proprietary software, both of which have active deployments in commercial settings. To learn more about how we were able to discover these vulnerabilities, take a look at [our paper](todo:link).
+Our research finds these vulnerabilities are present in both well-maintained open-source LTE/5G cores and in proprietary software, both of which have active deployments in commercial settings. To learn more about how we were able to discover these vulnerabilities, take a look at [our paper](https://nathanielbennett.com/publications/ransacked.pdf).
 
 ## Impact
 

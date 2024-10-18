@@ -22,4 +22,4 @@ and pass decoding requirements, thereby allowing deeper exploration into the pro
 uncovers **119 vulnerabililties** across 7 LTE cores and 3 5G cores, with **93 CVEs** assigned.
 
 A detailed report on the vulnerability disclosure can be found [here](/ransacked); read more about
-how we designed and evaluated the fuzzer in [our paper](todo:paper).
+how we designed and evaluated the fuzzer in [our paper](https://nathanielbennett.com/publications/ransacked.pdf).
