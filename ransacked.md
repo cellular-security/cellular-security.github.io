@@ -3,6 +3,7 @@ layout: default
 ---
 
 ![RANsacked](/assets/images/ransacked-cropped.jpeg)
+_Image created with DALLE-3_
 
 We discover **119 vulnerabilities** in LTE/5G core infrastructure, each of which can result in **persistent denial of cell service to an entire metropolitan area or city** and some of which can be used to **remotely compromise and access the cellular core**. Our research covers seven LTE implementations (Open5GS, Magma, OpenAirInterface, Athonet, SD-Core, NextEPC, srsRAN) and three 5G implementations (Open5GS, Magma, OpenAirInterface); we find **vulnerabilities in every single LTE/5G implementation tested**.
 
