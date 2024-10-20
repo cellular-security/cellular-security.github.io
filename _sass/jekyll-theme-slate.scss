@@ -144,6 +144,12 @@ img {
   -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
+img + em {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
 p img {
   display: block;
   margin-left: auto;
