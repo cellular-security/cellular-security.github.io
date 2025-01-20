@@ -58,6 +58,8 @@ The remaining sections contain more detailed analysis of the causes of each vuln
 
 ## OpenAirInterface (5G)
 
+Affected versions: oai-cn5g-amf <= 2.0.0
+
 ### NGAP Protocol Vulnerabilities
 
 **CVE-2024-24445** (**VULN-B01**):
@@ -571,6 +573,8 @@ int ngap_amf_handle_pdu_session_resource_setup_response(
 
 ## Open5GS (5G)
 
+Affected versions: Open5GS <= 2.6.4
+
 ### NAS Protocol Vulnerabilities
 
 **VULN-A01**:
@@ -673,6 +677,8 @@ void ngap_handle_uplink_ran_configuration_transfer(
 
 ## Magma (5G)
 
+Affected versions: Magma <= 1.8.0 (fixed in v1.9 commit 08472ba98b8321f802e95f5622fa90fec2dea486)
+
 ### NAS Protocol Vulnerabilities
 
 **CVE-2024-24425** (**VULN-C01**):
@@ -746,6 +752,8 @@ Magma will assert within the NGAP_FIND_PROTOCOLIE_BY_ID macro if the requested f
 ## Magma/OpenAirInterface (LTE)
 
 _Note: Magma and OAI use the same software for portions of their LTE core_
+
+Affected versions: Magma <= 1.8.0 (fixed in v1.9 commit 08472ba98b8321f802e95f5622fa90fec2dea486)
 
 ### NAS Protocol Vulnerabilities
 
@@ -1551,6 +1559,8 @@ void load_from(std::istream& is) {
 
 ## Open5GS (LTE)
 
+Affected versions: Open5GS <= 2.6.4
+
 ### NAS Protocol Vulnerabilities
 
 **CVE-2024-24431** (**VULN-F24**):
@@ -2300,6 +2310,8 @@ static void _gtpv1_u_recv_cb(short when, ogs_socket_t fd, void *data)
 
 ## NextEPC (LTE)
 
+Affected versions: NextEPC <= 1.0.1 (fixed in commit a8492c9c5bc0a66c6999cb5a263545b32a4109df)
+
 ### NAS Protocol Vulnerabilities
 
 **CVE-2023-36998** (**VULN-E08**):
@@ -2568,6 +2580,8 @@ Meanwhile, the value of `asn_IOS_S1AP_PathSwitchRequestAcknowledgeIEs_1_rows` ha
 The first is missing `MME-UE-S1AP-ID-2`, an optional secondary value of the same type as its immediately preceding element.
 
 ## SD-Core (LTE)
+
+Affected versions: SD-Core <= 1.4.0 (fixed in Nucleus commit 8c0455035837ad97d5a55bd214d7ab7d35aebdf8)
 
 ### NAS Protocol Vulnerabilities
 
@@ -2859,6 +2873,8 @@ Base64-encoded crashing examples:
 
 Note that source code is not available for Athonet, so we were not able to pin down the root programmatic cause of vulnerabilities.
 
+Affected versions: Athonet vEPC MME <= v11.4.0
+
 ### NAS Protocol Vulnerabilities
 
 **CVE-2024-24456** (**VULN-I08**):
@@ -2932,6 +2948,8 @@ network by repeatedly initiating connections and sending a crafted
 payload.
 
 ## srsRAN (LTE)
+
+Affected versions: srsRAN Project <= 23.5 (fixed in 23.10)
 
 ### S1AP Protocol Vulnerabilities
 
